@@ -15,3 +15,4 @@ Tests can be run using the test script `npm run test`
 1. Single floor travel time: 10 (Provided)
 1. It takes no time to stay on the same floor (the same floor multiple times in a row will not add to the travel time)
 1. Time spent stopped on a floor is not included in total travel time, as this is not time while traveling
+1. Floors are traveled between in order, without any optimizations in between
